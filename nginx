@@ -1,0 +1,21 @@
+server {
+    listen 443 ssl;
+
+
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+
+
+    server_name <IP Address>;
+
+
+
+ location / {
+
+            proxy_pass http://127.0.0.1:5000;
+            
+
+        }
+
+}
+
