@@ -1,0 +1,19 @@
+root@fb7aa156a31f:/dynawo/install/gcc9/master/Release/shared/dynawo/bin# ldd dynawo
+	linux-vdso.so.1 (0x00007fff365d4000)
+	libdynawo_Simulation.so.1 => not found
+	libxml2.so.2 => /lib/x86_64-linux-gnu/libxml2.so.2 (0x00007fef3a9b5000)
+	libboost_program_options.so.1.71.0 => /lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 (0x00007fef3a926000)
+	libdynawo_Common.so.1 => not found
+	libXMLSAXParser.so.0 => not found
+	libxerces-c-3.2.so => not found
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fef3a742000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fef3a727000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fef3a535000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007fef3a52f000)
+	libicuuc.so.66 => /lib/x86_64-linux-gnu/libicuuc.so.66 (0x00007fef3a349000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007fef3a32d000)
+	liblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007fef3a302000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fef3a1b3000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fef3a190000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fef3aba0000)
+	libicudata.so.66 => /lib/x86_64-linux-gnu/libicudata.so.66 (0x00007fef386cf000)
